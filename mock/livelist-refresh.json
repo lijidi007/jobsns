@@ -1,0 +1,23 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc": "/job/images/img1.jpg",
+      "title": "refresh樱桃小丸子-1"
+    },
+    {
+      "imgsrc": "/job/images/img2.jpg",
+      "title": "refresh樱桃小丸子-2"
+    },
+    {
+      "imgsrc": "/job/images/img3.jpg",
+      "title": "refresh樱桃小丸子-3"
+    },
+    {
+      "imgsrc": "/job/images/img4.jpg",
+      "title": "refresh樱桃小丸子-4"
+    }
+  ]
+}

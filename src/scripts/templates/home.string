@@ -1,0 +1,102 @@
+
+<div class="m-home">
+	<header>
+		<ul>
+			<li  class="yo-ico">&#xe686;</li>
+			<li>
+				<ul id="home-nav">
+					<li action-type="tap.home.slide" class="active">首页</li>
+					<li action-type="tap.home.slide">宝贝</li>
+				</ul>
+			</li>
+			<li  class="yo-ico">&#xe64f;</li>
+		</ul>
+	</header>
+
+
+
+
+
+	<!-------点击切换页面-------->
+
+<div class="swiper-container" id="baobei-swiper">
+  <div class="swiper-wrapper" >
+	<div class="swiper-slide">
+
+	<!--------滑动 切换页面-------->
+   <div class="swiper-container" id="home-swiper">
+	  <div class="swiper-wrapper" id="home-wrapper">
+		<div class="swiper-slide" id="home-slide">
+			<!-------- 轮播图 开始-------->
+			<div class="swiper-container"  id="lunbo-swiper">
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="/job/images/pic1.png"/></div>
+				<div class="swiper-slide"><img src="/job/images/pic1.png"/></div>
+				<div class="swiper-slide"><img src="/job/images/pic1.png"/></div>
+			  </div>
+			  <!-- 如果需要分页器 -->
+			  <div class="swiper-pagination"></div>
+			  <!-- 如果需要滚动条 -->
+			  <div class="swiper-scrollbar"></div>
+			</div>
+			<!-------- 轮播图 结束-------->
+			<section  spa-widget="scroll" data-scroll-id="homeHotScroll">
+				<div class="box">
+				<div class="head">
+                      <img src="/job/images/arrow.png" width="40" height="40"/>
+                      <span>下拉刷新...</span>
+                  </div>
+					<ul ms-repeat-value="livelist">
+						<li ms-attr-data-id="value[0].id">
+							<img ms-src="value[0].imgsrc">
+							<b ms-text="value[0].title">樱桃小丸子</b>
+						</li>
+						<li></li>
+						<li ms-attr-data-id="value[1].id">
+							<img ms-src="value[1].imgsrc">
+							<b ms-text="value[1].title"></b>
+						</li>
+				    </ul>
+				  <div class="foot">
+                      <img src="/job/images/arrow.png" width="40" height="40"/>
+                      <span>上拉加载更多...</span>
+                  </div>
+			 </div>
+		 </section>
+
+		</div><!-------- 第一个slide结束-------->
+
+		<div class="swiper-slide" id="home-slide">
+			 <section  spa-widget="scroll">
+				<div class="box">
+					 第二页
+				</div>
+			 </section>
+		</div><!-------- 第二个slide结束-------->
+
+		<div class="swiper-slide" id="home-slide">
+			<section  spa-widget="scroll">
+			  <div class="box">
+				第三页
+			  </div>
+			<section>
+		 </div><!-------- 第三个slide结束-------->
+		 <div class="swiper-slide" id="home-slide">
+			<section  spa-widget="scroll">
+			  <div class="box">
+				第四页
+			  </div>
+			<section>
+		 </div>
+		 <!-------- 第四个slide结束-------->
+	 </div>
+   </div>
+	<!-------- 左右滑动切换结束-------->
+
+
+  </div>
+  <div class="swiper-slide">111</div>
+ </div>
+</div>
+
+</div>

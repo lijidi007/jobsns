@@ -1,0 +1,30 @@
+<div class="top">
+	<ul>
+		<li class="yo-ico">&#xe6b3;</li>
+		<li>心情语录</li>
+		<li></li>
+		
+		<li class="yo-ico">&#xe609;</li>
+		<li class="yo-ico">&#xe686;</li>
+	</ul>
+	<ul action-type="goto.home">
+		<li class="yo-ico">&#xe622;</li>
+		<li>首页</li>
+	</ul>
+	<ul>
+		<li class="yo-ico">&#xe6b3;</li>
+		<li>今日热门</li>
+	</ul>
+	<ul>
+		<li class="yo-ico">&#xe60d;</li>
+		<li>动态</li>
+	</ul>
+	<ul>
+		<li class="yo-ico">&#xe674;</li>
+		<li>提醒</li>
+	</ul>
+	<ul>
+		<li class="yo-ico">&#xe627;</li>
+		<li>精彩推荐</li>
+	</ul>
+</div>
