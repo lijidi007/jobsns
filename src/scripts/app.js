@@ -8,6 +8,7 @@ require('./views/my.js');
 require('./views/guide.js');
 require('./views/home.js');
 require('./views/friends.js');
+require('./views/login.js');
 
 SPA.config({
   indexView: 'guide'
